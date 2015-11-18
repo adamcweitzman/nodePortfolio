@@ -66,5 +66,12 @@ $(function() {
 
 		$('#butt').css("background-image", "url(images/" + randomSlideTwo + ")");
 	});
+
+	$('#twitter_link, #github, #linked_in').mouseover(function() {
+  // Mouse Over
+    	$(this).animate({opacity: 0.25}, 2000, function() {
+      		$(this).animate({opacity: 1}, 0500);
+		});
+	});
 		
 });

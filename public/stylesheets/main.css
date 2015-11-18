@@ -1,3 +1,25 @@
+#linked_in, .quicklinks {
+  text-decoration: underline;
+  color: #0077B5
+}
+
+#twitter_link, .quicklinks {
+  text-decoration: underline;
+  color: #00B0ED;
+}
+
+#github {
+  color: black;
+}
+
+a + a {
+  margin-left: 10px;
+}
+
+
+
+
+
 .slides {
   display:none;
 }
@@ -71,3 +93,4 @@ h1 {
   color:yellow;
 
 };
+

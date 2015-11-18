@@ -8,9 +8,12 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans|Tangerine">
         <link rel="icon" href="favicon.ico" type="image/x-icon"> 
 		<link rel="stylesheet" href="stylesheets/main.css"/>
+        <link rel="stylesheet" href="stylesheets/favorite-star.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script>"https://code.jquery.com/jquery-2.1.4.min.js"</script>
         <script type="text/javascript" src="javascripts/personalsite.js"></script>
+        <script type="text/javascript" src="javascripts/favorite-star.js"></script>
+        <script>"https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-animate.js"</script>
 	</head>
 
   <body>
@@ -24,6 +27,13 @@
                 <div class="col-xs-2"></div> 
                 <div class="col-xs-8"> 
                     <h1 id="header">Adam Weitzman</h1>
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-6">
+                        <a href="https://www.linkedin.com/in/adam-weitzman-b503aa41" id="linked_in" class="quicklinks" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com/adam_weitzman" id="twitter_link" class="quicklinks" target="_blank">Twitter</a>
+                        <a href="https://github.com/adamcweitzman" id="github" class="quicklinks" target="_blank">GitHub</a> 
+                    </div>
+                    <div class="col-xs-3"></div>
                 </div>
                 <div class="col-xs-2">
                     <p></p>
@@ -33,7 +43,7 @@
                     <p></p>
                     <a class="twitter-timeline" id="twitter" href="https://twitter.com/adam_weitzman" data-widget-id="660093854285209600">Tweets by @adam_weitzman</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                </script>
+                    </script>
                 </div>
             </div>
         </div>
@@ -53,7 +63,7 @@
                     <p>I led backpacking trips for 2 years in <a href="https://www.thesca.org/" target="_blank" id="linkLink">Yosemite</a></p> 
                     <p>I don't anymore but I miss those amazing people</p> 
                     <p>I also miss the <a href="http://img3.owned.com/media/images/1/5/4/6/15467/they_told_this_bear_he_could_be_anything_big.jpg" target="_blank" id="linkLink">bears</a></p> 
-                    <p>I'm looking for a development team to bring the ruckus with, here's my <a href="resume_2015.pdf" target="_blank" id="linkLink">RESUME</a></p>
+                    <p>I'm looking for a development team to bring the ruckus with, here's my <a href="resume_2015.pdf" target="_blank" id="linkLink">RESUME</a><span class="likebtn-wrapper" data-theme="custom" data-icon_l="hrt1" data-icon_d="hrt1" data-identifier="item_1" data-like_enabled="false" data-popup_disabled="true" data-share_enabled="false"></span></p>
             </div>
             <div class="col-xs-2">
                 <p></p>
@@ -66,7 +76,9 @@
     </div>
     <div class="bg__foo" id="butt">
         <div class="row">
-            <div class="col-xs-4"></div>
+            <div class="col-xs-4">
+            <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></span>
+            </div>
             <div class="col-xs-4">
                 <h1>Deployed Projects</h1>
             </div>
